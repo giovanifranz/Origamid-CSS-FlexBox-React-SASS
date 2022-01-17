@@ -12,11 +12,6 @@ export function Sobre() {
           objetivos afeta positivamente a correta previsão das condições
           inegavelmente apropriadas objetivos.
         </p>
-        <p>
-          O que temos que ter sempre em mente é que a determinação clara de
-          objetivos afeta positivamente a correta previsão das condições
-          inegavelmente apropriadas objetivos.
-        </p>
       </div>
       <div className={styles.sobreImg}>
         <img src={sobre_1} alt="Sobre 1" />

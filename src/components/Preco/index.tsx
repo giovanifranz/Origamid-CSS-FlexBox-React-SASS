@@ -1,51 +1,12 @@
 import styles from './index.module.scss'
+import Item from './Item'
 
 export function Preco() {
   return (
     <section className={styles.preco} id="preco">
-      <div className={styles.precoItem}>
-        <h2>Cobre</h2>
-        <span>
-          <sup>R$</sup>19
-        </span>
-        <ul>
-          <li>Planos Ilimitados</li>
-          <li>Acesso Restrito</li>
-          <li>Conteúdo Secreto</li>
-          <li>Suporte 24h</li>
-        </ul>
-        <a href="#">Comprar</a>
-      </div>
-      <div className={styles.precoItem}>
-        <h2>Prata</h2>
-        <span>
-          <sup>R$</sup>39
-        </span>
-        <ul>
-          <li>Planos Ilimitados</li>
-          <li>Acesso Restrito</li>
-          <li>Conteúdo Secreto</li>
-          <li>Suporte 24h</li>
-          <li>Compra Exclusiva</li>
-        </ul>
-        <a href="#">Comprar</a>
-      </div>
-
-      <div className={styles.precoItem}>
-        <h2>Ouro</h2>
-        <span>
-          <sup>R$</sup>79
-        </span>
-        <ul>
-          <li>Planos Ilimitados</li>
-          <li>Acesso Restrito</li>
-          <li>Conteúdo Secreto</li>
-          <li>Suporte 24h</li>
-          <li>Compra Exclusiva</li>
-          <li>Download dos Itens</li>
-        </ul>
-        <a href="#">Comprar</a>
-      </div>
+      <Item title="Cobre" price={19} />
+      <Item title="Prata" price={39} />
+      <Item title="Ouro" price={79} />
     </section>
   )
 }

@@ -1,0 +1,29 @@
+@import "../../../styles/colors";
+
+.produtosItem {
+	flex: 1 1 175px;
+	margin: 10px;
+
+  h2 {
+    font-size: 3em;
+    color: $gray;
+    background: $gray-light;
+    padding: 60px 20px;
+    text-transform: capitalize;
+  }
+}
+
+.purple {
+  order: 1;
+  border-top: 8px solid $purple;
+}
+
+.pink {
+  order: 2;
+	border-top: 8px solid $pink;
+}
+
+.blue {
+  order: 3;
+	border-top: 8px solid $cyan;
+}

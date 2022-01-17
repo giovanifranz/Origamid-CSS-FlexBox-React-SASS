@@ -1,57 +1,41 @@
 import styles from './index.module.scss'
+import Item from './Item'
 
 export function Qualidade() {
   return (
     <section className={styles.qualidade} id="qualidade">
-      <div className={styles.qualidadeItem}>
-        <h2>Inteligente</h2>
-        <p>
-          O que temos que ter sempre em mente é que a determinação clara de
-          objetivos afeta positivamente a correta previsão{' '}
-        </p>
-      </div>
-
-      <div className={styles.qualidadeItem}>
-        <h2>Compacto</h2>
-        <p>
-          O que temos que ter sempre em mente é que a determinação clara de
+      <Item
+        title="Inteligente"
+        description="O que temos que ter sempre em mente é que a determinação clara de
+          objetivos afeta positivamente a correta previsão"
+      />
+      <Item
+        title="Compacto"
+        description="O que temos que ter sempre em mente é que a determinação clara de
           objetivos afeta positivamente a correta previsão das condições
-          inegavelmente
-        </p>
-      </div>
-
-      <div className={styles.qualidadeItem}>
-        <h2>Econômico</h2>
-        <p>
-          O que temos que ter sempre em mente é que a determinação clara de
-          objetivos afeta positivamente a correta previsão{' '}
-        </p>
-      </div>
-
-      <div className={styles.qualidadeItem}>
-        <h2>Transparente</h2>
-        <p>
-          O que temos que ter sempre em mente é que a determinação clara de
-          objetivos afeta positivamente a correta previsão{' '}
-        </p>
-      </div>
-
-      <div className={styles.qualidadeItem}>
-        <h2>Opaco</h2>
-        <p>
-          O que temos que ter sempre em mente é que a determinação clara de
-          objetivos afeta positivamente a correta previsão das condições
-          inegavelmente
-        </p>
-      </div>
-
-      <div className={styles.qualidadeItem}>
-        <h2>Sustentável</h2>
-        <p>
-          O que temos que ter sempre em mente é que a determinação clara de
-          objetivos afeta positivamente a correta previsão{' '}
-        </p>
-      </div>
+          inegavelmente"
+      />
+      <Item
+        title="Econômico"
+        description="O que temos que ter sempre em mente é que a determinação clara de
+          objetivos afeta positivamente a correta previsão"
+      />
+      <Item
+        title="Transparente"
+        description="O que temos que ter sempre em mente é que a determinação clara de
+        objetivos afeta positivamente a correta previsão"
+      />
+      <Item
+        title="Opaco"
+        description="O que temos que ter sempre em mente é que a determinação clara de
+        objetivos afeta positivamente a correta previsão das condições
+        inegavelmente"
+      />
+      <Item
+        title="Sustentável"
+        description="O que temos que ter sempre em mente é que a determinação clara de
+        objetivos afeta positivamente a correta previsão"
+      />
     </section>
   )
 }
