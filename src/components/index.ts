@@ -1,0 +1,7 @@
+export * from './Header'
+export * from './Footer'
+export * from './Sobre'
+export * from './Produtos'
+export * from './Preco'
+export * from './Qualidade'
+export * from './Newsletter'
