@@ -1,0 +1,44 @@
+@import "../../styles/colors";
+
+.produtos {
+	max-width: 960px;
+	margin: 60px auto;
+
+  h1 {
+    font-size: 3em;
+    margin: 0 10px 60px 10px
+  }
+}
+
+.produtosContainer {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: flex-end;
+}
+
+.produtosItem {
+	flex: 1 1 175px;
+	margin: 10px;
+
+  h2 {
+    font-size: 3em;
+    color: $gray;
+    background: $gray-light;
+    padding: 60px 20px;
+  }
+}
+
+.purple {
+  order: 1;
+  border-top: 8px solid $purple;
+}
+
+.pink {
+  order: 2;
+	border-top: 8px solid $pink;
+}
+
+.blue {
+  order: 3;
+	border-top: 8px solid $cyan;
+}

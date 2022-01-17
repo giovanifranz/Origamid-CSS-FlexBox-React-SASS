@@ -1,4 +1,4 @@
-import styles from './index.module.css'
+import styles from './index.module.scss'
 import sobre_1 from '@/assets/sobre1.jpg'
 import sobre_2 from '@/assets/sobre2.jpg'
 

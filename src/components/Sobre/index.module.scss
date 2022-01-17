@@ -1,0 +1,33 @@
+@import "../../styles/colors";
+
+.sobre {
+	border-top: 2px solid $blue-light;
+	border-bottom: 2px solid $blue-light;
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 60px 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.sobreInfo {
+	flex: 2 1 300px;
+	margin: 0 10px;
+
+  h1 {
+    font-size: 3em;
+    margin-bottom: .5em;
+  }
+
+  p {
+    font-size: 1.25em;
+	  line-height: 1.4;
+	  margin-bottom: 1em;
+	  color: $gray-dark;
+  }
+}
+
+.sobreImg {
+	flex: 1 1 160px;
+	margin: 0 10px;
+}
