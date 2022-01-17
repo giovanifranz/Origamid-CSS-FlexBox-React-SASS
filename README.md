@@ -1,21 +1,13 @@
-# Vite Boilerplate
+# Origamid - CSS Flexbox em React
 
-Estrutura base para iniciar projetos utilizando Vite com React e Typescript.
+O site desenvolvido no módulo CSS Flexbox da Origamid.
 
-### start
-```sh
-git clone this_repository
-cd this_directory
-npm install
-npm run dev
-```
+Tomei a liberdade de refazer o projeto desenvolvido pelo professor Andre com uma stack diferente, no caso mais semelhante com a que eu utilizo no meu dia a dia.
 
-### build
-```sh
-npm run build
-```
+## Stack
 
-### lint
-```sh
-npm run lint
-```
+- React
+- Vite
+- Typescript
+- SASS
+
